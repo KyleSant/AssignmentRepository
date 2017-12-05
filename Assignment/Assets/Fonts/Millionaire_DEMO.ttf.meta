@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 775efb40696b89f49bed054e1df66a82
+timeCreated: 1512501402
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Millionaire DEMO
+  fontNames:
+  - Millionaire DEMO
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

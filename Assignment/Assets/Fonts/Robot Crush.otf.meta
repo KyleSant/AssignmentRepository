@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: adc18c14a82bfd941acdc213eda12c49
+timeCreated: 1512501208
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Robot Crush
+  fontNames:
+  - Robot Crush
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
