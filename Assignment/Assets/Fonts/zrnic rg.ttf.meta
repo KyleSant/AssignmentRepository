@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 7a9fde0415d391e46b91a8436342c4ca
+timeCreated: 1512575123
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Zrnic
+  fontNames:
+  - Zrnic
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

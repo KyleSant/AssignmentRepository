@@ -95,6 +95,7 @@
     <Compile Include="Assets\Scripts\Paddle5.cs" />
     <Compile Include="Assets\Scripts\Paddle6.cs" />
     <Compile Include="Assets\Scripts\Paddlle3.cs" />
+    <Compile Include="Assets\Scripts\Win.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

@@ -9,10 +9,13 @@ public class GoalNetLvl3 : MonoBehaviour {
     public static int timesHit = 0;
     public Text Score;
     public int maxHits;
+    public static int hitWinner;
+
     // Use this for initialization
     void Start()
     {
-        Score.text = "Player1's Score is: 0";
+        hitWinner = maxHits;
+        Score.text = "Player2's Score is: 0";
     }
 
     // Update is called once per frame

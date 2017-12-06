@@ -13,7 +13,7 @@ public class GoalNet : MonoBehaviour {
     // Use this for initialization
     void Start()
     {
-        Score.text = "Player1's Score is: 0";
+        Score.text = "Player2's Score is: 0";
     }
 
     // Update is called once per frame

@@ -4,18 +4,20 @@ using UnityEngine;
 
 public class Paddlle3 : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-		
-	}
+
+    public int speed;
+    private Vector3 startPosition;
+
+    // Use this for initialization
+    void Start () {
+
+        startPosition = transform.position;
+    }
 	
 	// Update is called once per frame
 	void Update () {
+        
+         transform.position = new Vector3(transform.position.x, startPosition.y + Mathf.Sin(Time.time * speed), transform.position.z);
 
-        Vector3 paddlePos = new Vector3(gameObject.transform.position.x, gameObject.transform.position.y + 1, gameObject.transform.position.z);
-        gameObject.transform.position = paddlePos;
-
-        paddlePos = new Vector3(gameObject.transform.position.x, gameObject.transform.position.y - 1, gameObject.transform.position.z);
-        gameObject.transform.position = paddlePos;
     }
 }

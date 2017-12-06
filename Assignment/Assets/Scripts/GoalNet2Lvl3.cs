@@ -9,9 +9,12 @@ public class GoalNet2Lvl3 : MonoBehaviour {
     public static int timesHit = 0;
     public Text Score;
     public int maxHits;
+    public static int hitWinner;
+
     // Use this for initialization
     void Start()
     {
+        hitWinner = maxHits;
         Score.text = "Player1's Score is: 0";
     }
 
@@ -32,4 +35,5 @@ public class GoalNet2Lvl3 : MonoBehaviour {
             SceneManager.LoadScene("Win");
         }
     }
+
 }
