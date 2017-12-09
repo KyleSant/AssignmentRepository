@@ -26,7 +26,7 @@ public class GoalNetLvl2 : MonoBehaviour {
 
     public void OnCollisionEnter2D(Collision2D collision)
     {
-        timesHit++;
+        timesHit = timesHit + 2;
         print(timesHit);
         Score.text = "Player2's Score is: " + timesHit;
 
