@@ -30,6 +30,11 @@ public class Win : MonoBehaviour {
             Winner.text = "The Winner is: Player1";
         }
 
+        else if(total1 == total2)
+        {
+            Winner.text = "The Winner: DRAW";
+        }
+
         else 
         {
             Winner.text = "The Winner is: Player2";
